@@ -1,4 +1,4 @@
-package com.in28minutes.springboot.rest.example.student;
+package com.springboot.rest.example.studentDashBoard.exception;
 
 public class StudentNotFoundException extends RuntimeException {
 

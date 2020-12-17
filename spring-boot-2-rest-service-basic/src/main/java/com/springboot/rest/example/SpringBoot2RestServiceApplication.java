@@ -1,4 +1,4 @@
-package com.in28minutes.springboot.rest.example;
+package com.springboot.rest.example;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
