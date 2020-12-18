@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+    <title>Student DashBoard!</title>
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css"> <!-- load bootstrap via CDN -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script> <!-- load jquery via CDN -->
+    <script src="form.js"></script> <!-- load our javascript file -->
+</head>
+<body>
+<div class="col-sm-6 col-sm-offset-3">
+
+    <h3>Create Student Profile</h3>
+
+    <!-- OUR FORM -->
+    <form id= "createStudent" action="" method="POST">
+
+        <div id="name-group" class="form-group">
+            <label for="name">Name</label>
+            <input type="text" class="form-control" name="name" >
+            <!-- errors will go here -->
+        </div>
+
+        <div id="student_id-group" class="form-group">
+            <label for="student_id">Roll Number</label>
+            <input type="number" class="form-control" name="student_id" >
+            <!-- errors will go here -->
+        </div>
+
+        <div id="branch-group" class="form-group">
+            <label for="branch">Branch</label>
+            <input type="text" class="form-control" name="branch" >
+            <!-- errors will go here -->
+        </div>
+
+        <div id="semester-group" class="form-group">
+            <label for="semester">Semester</label>
+            <input type="number" class="form-control" name="semester" >
+            <!-- errors will go here -->
+        </div>
+
+        <button  id = "createStudent" type="submit" class="btn btn-success">Submit <span class="fa fa-arrow-right"></span></button>
+
+    </form>
+
+</div>
+</body>
+</html>
+
+
